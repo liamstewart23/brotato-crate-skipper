@@ -38,3 +38,5 @@ Translated in 13 languages: English, French, Spanish, German, Russian, Portugues
 
 ## Installation
 Just hit Subscribe, and the mod will be added to your game automatically. No setup required.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3744027969
