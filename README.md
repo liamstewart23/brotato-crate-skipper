@@ -1,6 +1,6 @@
-# Brotato - Crate Skipper
-
 <img width="250" height="250" alt="crate-skipper" src="https://github.com/user-attachments/assets/7ada5a0c-44fa-4dd3-8712-3100c6e14f61" />
+
+# Brotato - Crate Skipper
 
 A mod for the game [Brotato](https://store.steampowered.com/app/1942280/Brotato/) that adds a hold-to-confirm Recycle button to the end-of-wave crate screen, letting you recycle every remaining crate for gold at once instead of clicking through them one by one.
 
