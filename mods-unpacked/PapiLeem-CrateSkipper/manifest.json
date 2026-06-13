@@ -1,0 +1,41 @@
+{
+	"name": "CrateSkipper",
+	"namespace": "PapiLeem",
+	"version_number": "1.0.0",
+	"description": "Hold a hotkey (keyboard + controller) on the end-of-wave crate screen to auto-discard every offered crate for gold and skip straight through the selection.",
+	"website_url": "",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"optional_dependencies": [],
+			"authors": [
+				"PapiLeem"
+			],
+			"compatible_mod_loader_version": ["6.2.0"],
+			"compatible_game_version": ["1.1.13.1"],
+			"config_schema": {
+				"type": "object",
+				"properties": {
+					"keyboard_scancode": {
+						"type": "integer",
+						"title": "Keyboard Hotkey (Godot scancode)",
+						"description": "Godot KEY_* scancode for the skip-crates hotkey. Default 71 = G (bundled icon).",
+						"default": 71,
+						"minimum": 0,
+						"maximum": 16777300
+					},
+					"joypad_button_index": {
+						"type": "integer",
+						"title": "Controller Hotkey (joypad button index)",
+						"description": "Joypad button index. Default 10 = Back (Xbox) / Share (PS) / - (Switch) — bundled icons, no conflict with existing crate-screen actions.",
+						"default": 10,
+						"minimum": 0,
+						"maximum": 31
+					}
+				}
+			},
+			"tags": ["QoL"]
+		}
+	}
+}
