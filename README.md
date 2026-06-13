@@ -16,20 +16,21 @@ You can trigger the hold three ways:
 
 Take or recycle a few crates manually first if you like; the button always recycles whatever is left. Crate contents are still rolled normally, so you get whatever the rolls give. Level-up upgrade choices are never auto-selected, so you still pick those yourself.
 
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/c79c1e13-b80d-4215-b382-630a9f7c4422" />
+
+
 ## Features
 
 - **On-screen Recycle button** with a live count of remaining crates
 - **Hold-to-confirm fill animation** matching the in-game reroll button
 - **Instant recycle** of the whole batch in one step, no clicking through each crate
 - **Co-op support** where each player gets their own button and recycles their own crates
-- **Configurable hotkeys** via ModLoader config
 
 ## Compatibility
 
 - Game version: 1.1.13.1
 - Mod loader: 6.2.0
 - No dependencies
-- Works with Endless Mode, Ban Mode, and Co-op
 
 ## Languages
 
